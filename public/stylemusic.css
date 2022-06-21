@@ -2,17 +2,17 @@
   text-align: center;
   background-color: #EDE6DB;
   border: 0;
-  padding-top: 20px;
+  padding-top: 2rem;
   padding-left: 0;
   padding-right: 0;
   margin: 0;
 }
 .cont h1{
-  padding-bottom: 30px;
+  padding-bottom: 3rem;
 }
 .h{
   float: right;
-  margin-right: 30px;
+  margin-right: 3rem;
 }
 
 .list-group-item{
@@ -23,7 +23,7 @@
 }
 .row img{
   height: auto;
-  width: 400px;
+  width: 20rem;
 }
 .row{
   padding: 0;
@@ -34,13 +34,14 @@
 .l{
   background-color: #417D7A;
   text-align: center;
+  padding-top: 4rem;
 }
 .l h1{
-  padding-top: 25%;
+  padding-top: 2.5rem;
 }
 .r{
   background-color: #1D5C63;
-  padding: 30px;
+  padding: 3rem;
 }
 .table{
   text-align: center;
@@ -51,5 +52,5 @@
 }
 .mh{
   text-align: center;
-  padding: 30px;
+  padding: 3rem;
 }

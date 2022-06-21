@@ -1,5 +1,5 @@
 #movies{
-  background-color: #417D7A;
+  background-color: #EDE6DB;
 }
 .main{
   background-color: #EDE6DB;
@@ -7,14 +7,15 @@
 body{
   text-align: center;
 }
-.carousel-item{
-  padding-top: 50px;
-  padding-bottom: 50px;
-}
 img{
-  height:300px;
+  height:20rem;
   width: auto;
 }
 p{
   font-size: 1.5rem;
+}
+.card{
+  background-color: #417D7A;
+  margin: 10px;
+
 }
