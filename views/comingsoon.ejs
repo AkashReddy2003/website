@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+
+<head>
+  <meta charset="utf-8">
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-0evHe/X+R7YkIZDRvuzKMRqM+OrBnVFBL6DOitfPri4tjfHxaWutUpFmBp4vmVor" crossorigin="anonymous">
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/js/bootstrap.bundle.min.js" integrity="sha384-pprn3073KE6tl6bjs2QrFaJGz5/SUsLqktiwsUTF55Jfv3qYSDhgCecCxMW52nD2" crossorigin="anonymous"></script>
+  <title></title>
+  <link rel="stylesheet" href="movies.css">
+
+</head>
+
+<body>
+  <h1 class="main">TOP 10 COMING SOON</h1>
+  <nav class="navbar navbar-expand-lg bg-light">
+    <div class="container-fluid">
+      <a class="navbar-brand" href="/">Home</a>
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
+        <div class="navbar-nav">
+          <a class="nav-link" href="/movies">Movies</a>
+          <a class="nav-link" href="/tvshows">TV Shows</a>
+          <a class="nav-link" href="/comingsoon">Movies Coming Soon</a>
+        </div>
+      </div>
+    </div>
+  </nav>
+  <section id="movies">
+    <div id="carouselExampleControls" class="carousel slide" data-bs-ride="false">
+      <div class="carousel-inner">
+        <div class="carousel-item active">
+          <h2 class="retext"><%=mn1%></h2>
+          <img src="<%=mu1%>" class="re" alt="">
+          <p>Release Date: <%=mc1%><br>Genre: <%=mi1%></p>
+        </div>
+        <div class="carousel-item">
+          <h2 class="retext"><%=mn2%></h2>
+          <img src="<%=mu2%>" class="re" alt="">
+          <p>Release Date: <%=mc2%><br>Genre: <%=mi2%></p>
+        </div>
+        <div class="carousel-item">
+          <h2 class="retext"><%=mn3%></h2>
+          <img src="<%=mu3%>" class="re" alt="">
+          <p>Release Date: <%=mc3%><br>Genre: <%=mi3%></p>
+        </div>
+        <div class="carousel-item">
+          <h2 class="retext"><%=mn4%></h2>
+          <img src="<%=mu4%>" class="re" alt="">
+          <p>Release Date: <%=mc4%><br>Genre: <%=mi4%></p>
+        </div>
+        <div class="carousel-item">
+          <h2 class="retext"><%=mn5%></h2>
+          <img src="<%=mu5%>" class="re" alt="">
+          <p>Release Date: <%=mc5%><br>Genre: <%=mi5%></p>
+        </div>
+        <div class="carousel-item">
+          <h2 class="retext"><%=mn6%></h2>
+          <img src="<%=mu6%>" class="re" alt="">
+          <p>Release Date: <%=mc6%><br>Genre: <%=mi6%></p>
+        </div>
+        <div class="carousel-item">
+          <h2 class="retext"><%=mn7%></h2>
+          <img src="<%=mu7%>" class="re" alt="">
+          <p>Release Date: <%=mc7%><br>Genre: <%=mi7%></p>
+        </div>
+        <div class="carousel-item">
+          <h2 class="retext"><%=mn8%></h2>
+          <img src="<%=mu8%>" class="re" alt="">
+          <p>Release Date: <%=mc8%><br>Genre: <%=mi8%></p>
+        </div>
+        <div class="carousel-item">
+          <h2 class="retext"><%=mn9%></h2>
+          <img src="<%=mu9%>" class="re" alt="">
+          <p>Release Date: <%=mc9%><br>Genre: <%=mi9%></p>
+        </div>
+        <div class="carousel-item">
+          <h2 class="retext"><%=mn10%></h2>
+          <img src="<%=mu10%>" class="re" alt="">
+          <p>Release Date: <%=mc10%><br>Genre: <%=mi10%></p>
+        </div>
+      </div>
+      <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleControls" data-bs-slide="prev">
+        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+        <span class="visually-hidden">Previous</span>
+      </button>
+      <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleControls" data-bs-slide="next">
+        <span class="carousel-control-next-icon" aria-hidden="true"></span>
+        <span class="visually-hidden">Next</span>
+      </button>
+    </div>
+  </section>
+
+</body>
+
+</html>

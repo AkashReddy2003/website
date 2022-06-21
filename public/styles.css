@@ -1,0 +1,51 @@
+
+.navbar{
+  padding-left: 30px;
+  background-color: #EDE6DB;
+  font-size: 18px;
+  padding-top: 20px;
+}
+.navbar-brand{
+  padding-left: 20px;
+  font-size: 20px;
+  float: left;
+
+}
+.nav-item{
+  padding-left: 30px;
+
+}
+.main{
+  padding-top:100px;
+  padding-left: 100px;
+  background-color: #417D7A;
+  font-family: 'Roboto Mono', monospace;
+  color: #1A3C40;
+  width:auto;
+}
+.main img{
+  padding-left: 100px;
+  height: 350px;
+}
+.main h1{
+  padding-top: 170px;
+  padding-bottom: 100px;
+}
+.nav-link:hover{
+  color: #417D7A;
+}
+.second{
+  background-color: #1D5C63;
+
+}
+.second h1{
+  padding-top: 200px;
+  padding-bottom: 150px;
+  padding-left: 50px;
+}
+
+.second img{
+  float: right;
+  padding-right: 300px;
+  padding-top: 170px;
+}

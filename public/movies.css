@@ -1,0 +1,20 @@
+#movies{
+  background-color: #417D7A;
+}
+.main{
+  background-color: #EDE6DB;
+}
+body{
+  text-align: center;
+}
+.carousel-item{
+  padding-top: 100px;
+  padding-bottom: 100px;
+}
+img{
+  height:200px;
+  width: auto;
+}
+p{
+  font-size: 1.5rem;
+}
