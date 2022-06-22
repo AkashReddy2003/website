@@ -1187,4 +1187,33 @@ app.get("/gpa",function(req,res){
 });
 app.get("/cgpa",function(req,res){
   res.sendFile(__dirname+"/cgpa.html");
-})
+});
+var elements=[];
+app.get("/list", function(req, res) {
+  var today = new Date();
+  var date = new Date();
+  var options={
+    weekday:"long",
+    day:"numeric",
+    month:"long",
+  };
+
+  var day =date.toLocaleDateString('en-IN',options);
+  res.render("list", {
+    day: day,
+    elements:elements,
+  });
+});
+app.post("/list",function(req,res){
+  elements.push(req.body.element);
+
+  res.redirect("/list");
+
+});
+app.post("/list/clear",function(req,res){
+  while(elements.length){
+    elements.pop();
+  };
+
+  res.redirect("/list");
+});
