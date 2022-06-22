@@ -1,7 +1,7 @@
 const add=document.querySelector("#ad");
 const course=document.querySelector("#course");
 const credit=document.querySelector("#credit");
-const grade=document.querySelector("#grade");
+const gpa=document.querySelector("#gpa");
 const tbody=document.querySelector("#tbody");
 const table=document.querySelector("#table");
 const clear=document.querySelector("#clear");
@@ -16,12 +16,12 @@ add.addEventListener("click",function(){
   const tdcredit=document.createElement("td");
   tdcredit.innerHTML=credit.value;
   const tdgrade=document.createElement("td");
-  tdgrade.innerHTML=grade.options[grade.selectedIndex].text;
+  tdgrade.innerHTML=gpa.value;
   tr.appendChild(tdcourse);
   tr.appendChild(tdcredit);
   tr.appendChild(tdgrade);
   tbody.appendChild(tr);
-  c.push({"credit":credit.value,"grade":grade.options[grade.selectedIndex].value});
+  c.push({"credit":credit.value,"gpa":gpa.value});
   console.log(c);
 
 });
@@ -30,7 +30,7 @@ cal.addEventListener("click",function(){
   var gra=0;
   c.forEach(function(result){
     cre=cre+Number(result.credit);
-    gra=gra+(Number(result.credit)*Number(result.grade));
+    gra=gra+(Number(result.credit)*Number(result.gpa));
   });
   const tr=document.createElement("tr");
   const td=document.createElement("td");
@@ -38,7 +38,7 @@ cal.addEventListener("click",function(){
   const tdl=document.createElement("td");
   tdl.innerHTML="Toatl Credits "+cre;
   const tdgpa=document.createElement("td");
-  tdgpa.innerHTML="Your GPA is "+(gra/cre).toFixed(2);
+  tdgpa.innerHTML="Your CGPA is "+(gra/cre).toFixed(2);
   tr.appendChild(td);
   tr.appendChild(tdl);
   tr.appendChild(tdgpa);

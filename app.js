@@ -1184,4 +1184,7 @@ app.get("/comingsoon",function(req,res){
 });
 app.get("/gpa",function(req,res){
   res.sendFile(__dirname+"/gpa.html");
+});
+app.get("/cgpa",function(req,res){
+  res.sendFile(__dirname+"/cgpa.html");
 })
