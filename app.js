@@ -1217,3 +1217,6 @@ app.post("/list/clear",function(req,res){
 
   res.redirect("/list");
 });
+app.get("/contact",function(req,res){
+  res.sendFile(__dirname+"/contact.html");
+})

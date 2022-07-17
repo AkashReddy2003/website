@@ -49,3 +49,10 @@
   padding-right: 300px;
   padding-top: 170px;
 }
+
+@media only screen and (max-width: 600px) {
+
+  img.h{
+    display: none;
+  }
+}
