@@ -1,6 +1,8 @@
 h1{
   font-family: 'Rubik Moonrocks', cursive;
-  font-size: 5rem;
+  font-size: 4rem;
+  background-color:#417D7A;
+  padding: 20px;
 
 }
 h2{
@@ -12,14 +14,28 @@ p{
   font-weight: bold;
   font-size: 1.5rem;
 }
-.btn{
-  border-radius: 20px;
+a{
+  border-radius: 25px;
   background-color: #FEFBF6;
+  padding: 10px;
 }
-.btn:hover{
-  background-color: #A6D1E6;
+a:hover{
+  background-color:#417D7A;;
 
 }
 body{
   text-align: center;
+}
+td{
+  padding: 10px;
+}
+.content{
+  height: 700px;
+  overflow-y: scroll;
+}
+.navbar-nav{
+  padding-left: 50%;
+}
+.n{
+  padding-left: 10%;
 }

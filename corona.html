@@ -13,15 +13,40 @@
   <body>
     <div class="container-fluid">
       <h1>Carona Cases</h1>
-      <a href="/" class="btn btn-lg">Home</a>
-    </div>
-    <div class="container-fluid items">
+      <nav class="navbar navbar-expand-lg bg-light">
+      <div class="container-fluid n">
+        <a class="navbar-brand" href="/">Home</a>
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
+          <div class="navbar-nav">
+            <input class="form-control me-2" type="search" placeholder="Search by Country" id="search">
+          </div>
+        </div>
+      </div>
+    </nav>
 
     </div>
+    <div class="content">
+      <table class="table table-success table-striped" data-bs-spy="scroll">
+        <thead>
+          <tr>
+            <th scope="col">Country</td>
+            <th scope="col">Total Confirmed Cases</td>
+            <th scope="col">Total Deaths</td>
+              <th scope="col">New Confirmed Cases</td>
+              <th scope="col">New Deaths</td>
+          </tr>
+        </thead>
+        <tbody id="items">
 
-<script type="text/javascript" src="corona.js" >
+        </tbody>
 
+      </table>
 
-</script>
+    </div>
+
+<script src="corona.js"></script>
   </body>
 </html>
