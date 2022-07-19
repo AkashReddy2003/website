@@ -1219,4 +1219,7 @@ app.post("/list/clear",function(req,res){
 });
 app.get("/contact",function(req,res){
   res.sendFile(__dirname+"/contact.html");
-})
+});
+app.get("/corona",function(req,res){
+  res.sendFile(__dirname+"/corona.html");
+});
