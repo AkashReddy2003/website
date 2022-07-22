@@ -8,6 +8,15 @@
 .logo{
   height:70px;
 }
+.v{
+  background-color:  #1D5C63;
+  color: #EDE6DB;
+  text-align: center;
+}
+.v h1{
+  padding: 25%;
+  display: none;
+}
 .navbar-brand{
   padding-left: 20px;
   font-size: 20px;
@@ -49,8 +58,8 @@
 
 .second img{
   float: right;
-  padding-right: 300px;
-  padding-top: 170px;
+  padding-right: 200px;
+  padding-top: 150px;
 }
 
 @media only screen and (max-width: 600px) {
