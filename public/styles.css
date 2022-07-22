@@ -10,13 +10,9 @@
 }
 .v{
   background-color:  #1D5C63;
-  color: #EDE6DB;
-  text-align: center;
+
 }
-.v h1{
-  padding: 25%;
-  display: none;
-}
+
 .navbar-brand{
   padding-left: 20px;
   font-size: 20px;
