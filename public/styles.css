@@ -34,10 +34,12 @@
 .main img{
   padding-left: 100px;
   height: 350px;
+
 }
 .main h1{
   padding-top: 170px;
   padding-bottom: 100px;
+
 }
 .nav-link:hover{
   color: #417D7A;
@@ -56,6 +58,27 @@
   float: right;
   padding-right: 200px;
   padding-top: 150px;
+}
+.content{
+color: #1D5C63;
+background-color: #EDE6DB;
+  padding: 50px
+}
+.content img{
+  width:500px;
+  padding-bottom: 10px;
+  display: none;
+  border-radius: 20px;
+  box-shadow: 5px 5px 10px 2px rgba(0,0,0,.8);
+}
+.content h2{
+  padding: 10px;
+}
+#cont2{
+  float: right;
+}
+.typed-cursor{
+  display: none;
 }
 
 @media only screen and (max-width: 600px) {
