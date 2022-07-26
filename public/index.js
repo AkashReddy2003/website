@@ -44,8 +44,8 @@ $(".content").mouseover(function(){
 });
 $(".content").mouseover(function(){
   $( "#cimg9" ).fadeIn("slow");
-  var typed=new Typed('#conth4',{
-      strings:['Confused about what to watch See Here'],
+  var typed=new Typed('#conth9',{
+      strings:['Here you can calculate your GPA and CGPA'],
       typeSpeed:50,
   });
 });
@@ -57,16 +57,9 @@ $(".content").mouseover(function(){
   });
 });
 $(".content").mouseover(function(){
-  $( "#cimg11" ).fadeIn("slow");
-  var typed=new Typed('#conth4',{
-      strings:['Confused about what to watch See Here'],
-      typeSpeed:50,
-  });
-});
-$(".content").mouseover(function(){
   $( "#cimg12" ).fadeIn("slow");
-  var typed=new Typed('#conth4',{
-      strings:['Confused about what to watch See Here'],
+  var typed=new Typed('#conth12',{
+      strings:['Check corona Updates Here'],
       typeSpeed:50,
   });
 });
