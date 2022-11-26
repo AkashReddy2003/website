@@ -263,7 +263,7 @@ app.post("/list/clear",function(req,res){
   res.redirect("/list");
 });
 app.get("/contact",function(req,res){
-  res.sendFile(__dirname+"/contact.html");
+  res.send("https://portfolio-akash-reddy.herokuapp.com/");
 });
 app.get("/corona",function(req,res){
   res.sendFile(__dirname+"/corona.html");
